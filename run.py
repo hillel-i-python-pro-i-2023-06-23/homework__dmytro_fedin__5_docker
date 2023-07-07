@@ -30,7 +30,6 @@ def parse_name() -> None:
         print(f"Hello, {args.name}!")
 
 
-# smth
 def main() -> None:
     if is_name():
         parse_name()
