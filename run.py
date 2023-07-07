@@ -29,7 +29,7 @@ def parse_name() -> None:
     if args.name:
         print(f'Hello, {args.name}!')
 
-
+# Some comment
 def main() -> None:
     if is_name():
         parse_name()
