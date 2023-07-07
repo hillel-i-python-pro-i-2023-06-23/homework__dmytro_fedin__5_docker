@@ -8,12 +8,12 @@ fake_name = fake.name()
 
 
 def print_fake_name() -> None:
-    print(f'My name is {fake_name}.')
+    print(f"My name is {fake_name}.")
 
 
-parser = argparse.ArgumentParser(description='My first and simple CLI program.')
+parser = argparse.ArgumentParser(description="My first and simple CLI program.")
 
-parser.add_argument('--name', help='Your name.')
+parser.add_argument("--name", help="Your name.")
 
 args = parser.parse_args()
 
@@ -27,17 +27,18 @@ def is_name() -> bool:
 
 def parse_name() -> None:
     if args.name:
-        print(f'Hello, {args.name}!')
+        print(f"Hello, {args.name}!")
 
 
+# smth
 def main() -> None:
     if is_name():
         parse_name()
         print_fake_name()
     else:
         print("Tell me Your name, please. (Run cmd [--help] for help)")
-        msg = 'Failed'
+        # msg = "Failed"
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
