@@ -1,8 +1,8 @@
 import argparse
 
-parser = argparse.ArgumentParser(description='My first and simple CLI program.')
+parser = argparse.ArgumentParser(description="My first and simple CLI program.")
 
-parser.add_argument('--name', help='Your name.')
+parser.add_argument("--name", help="Your name.")
 
 args = parser.parse_args()
 
@@ -16,4 +16,4 @@ def is_name() -> bool:
 
 def parse_name() -> None:
     if args.name:
-        print(f'Hello, {args.name}!')
+        print(f"Hello, {args.name}!")

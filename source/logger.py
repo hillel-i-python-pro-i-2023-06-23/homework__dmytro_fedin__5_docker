@@ -3,9 +3,9 @@ import logging
 # Configure logging settings
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    filename=r'logs/log_file.txt',
-    filemode='w'
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    filename=r"logs/log_file.txt",
+    filemode="w",
 )
 
 
