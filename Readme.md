@@ -5,7 +5,9 @@
 
 ## 🏠 Homework
 
-Homework related actions.
+The simple console application: run it with only one argument --name [Your_name] and
+get greeting from random person. To run the application in Docker
+the argument with default value for name "Bob" is passed.
 
 
 
