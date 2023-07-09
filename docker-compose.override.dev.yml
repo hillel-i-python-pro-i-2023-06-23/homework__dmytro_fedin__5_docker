@@ -4,4 +4,5 @@ version: '3.9'
 services:
   app:
     volumes:
-      - ./logs:/wd/files_input:rw
+      - ./logs:/wd/logs:rw
+    user: ${UID:-0}
