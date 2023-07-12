@@ -2,3 +2,6 @@
 __pycache__/
 /venv/
 .idea
+
+# Configuration overrides
+docker-compose.override.yml
