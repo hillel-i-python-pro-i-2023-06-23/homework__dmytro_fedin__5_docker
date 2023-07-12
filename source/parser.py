@@ -1,10 +1,16 @@
-import argparse
+def get_arguments():
+    import argparse
 
-parser = argparse.ArgumentParser(description="My first and simple CLI program.")
+    parser = argparse.ArgumentParser(
+        description="My first and simple CLI program."
+    )
+    parser.add_argument("--name", help="Your name.")
+    arguments = parser.parse_args()
+    return arguments
 
-parser.add_argument("--name", help="Your name.")
 
-args = parser.parse_args()
+# Get arguments
+args = get_arguments()
 
 
 # With no exclusion
