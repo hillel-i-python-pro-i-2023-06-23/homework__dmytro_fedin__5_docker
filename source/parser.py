@@ -9,7 +9,7 @@ def get_arguments():
     return arguments
 
 
-# Get arguments
+# Get arguments to use
 args = get_arguments()
 
 
